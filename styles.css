@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+h1 {position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+h1:hover {
+    color: red;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-name {
+    display: inline-block;
+    border: 1px solid pink;
+    width: 400px;
+    height: 50px;
+}
+
+.text-name {
+    text-align: center;
+    line-height: 50px;
+    font-size: 32px;
+}
+
+.text-name:hover {
+    color: white;
+    background-color: #CE36F5 ;
+}
+
+.box-desc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid pink;
+    margin-top: 5px;
+    width: 400px;
+    height: 300px;
+}
+
+.box-image {
+    background: url(./iphone-15-pro-max_2__5.webp) no-repeat;
+    background-size: 255px;
+    background-position: center;
+    width: 255px;
+    height: 255px;
+    border: 1px solid pink;
+}
+
+.box-icon {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: url(./pngegg.png) no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid pink;
+    
+}
+
+.box-actions {
+    position: absolute;
+    background: url(./actions.png) no-repeat;
+    background-size: 70px;
+    background-position: center;
+
+    width: 60px;
+    height: 150px;
+    right: 5px;
+    bottom: 4px;
+    border: 1px solid pink;
+
+}
+
+.box-price {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+    color: #868383; 
+    border: 1px solid pink;
+    width: 100px;
+    height: 40px;
+}
